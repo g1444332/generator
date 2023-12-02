@@ -10,7 +10,7 @@ class Widget(QMainWindow):
         self.ui.btn_generate.clicked.connect(self.generator)
 
     def generator(self):
-        print(1)
+        print(2)
 
 
 app = QApplication([])
